@@ -23,8 +23,8 @@ function navigateToInstagram() {
 
 <style scoped>
 #container {
-    display: flex;
     margin: 4rem;
+    display: flex;
 
     #info {
         .profile {
@@ -52,6 +52,7 @@ function navigateToInstagram() {
 
 @media (max-width: 1050px) {
 #container {
+    margin: 2rem;
     display: flex;
     overflow: visible;
     flex-direction: column;
@@ -64,6 +65,7 @@ function navigateToInstagram() {
     }
 
     #about-me {
+        margin: 0rem 2rem;
         p {
             font-size: 1.2rem;
             text-align: center;

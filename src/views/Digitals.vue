@@ -51,4 +51,19 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 1050px) {
+#container {
+    margin: 2rem;
+    grid-template:
+    "a e"
+    "g g"
+    "g g"
+    "b c"
+    "i i"
+    "d d"
+    "h h"
+    "f f";
+}
+}
 </style>
