@@ -25,7 +25,7 @@ function navigateToInstagram() {
 #container {
     display: flex;
     margin: 4rem;
-    
+
     #info {
         .profile {
             width: 20rem;
@@ -48,5 +48,27 @@ function navigateToInstagram() {
             margin-bottom: 2rem;
         }
     }
+}
+
+@media (max-width: 1050px) {
+#container {
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+
+    #info {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #about-me {
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+}
 }
 </style>
