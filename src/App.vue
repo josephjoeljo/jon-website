@@ -12,7 +12,7 @@ import NavigationBar from './components/NavigationBar.vue';
 
 <style scoped>
 #container {
-  height: 100vh;
+  min-height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
   background-color: var(--background-color);

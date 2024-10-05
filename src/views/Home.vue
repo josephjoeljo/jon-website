@@ -43,6 +43,7 @@ function navigateToInstagram() {
     #about-me {
         margin: 0rem 4rem;
         p {
+            color: black;
             margin: unset;
             font-size: 1.5rem;
             margin-bottom: 2rem;
